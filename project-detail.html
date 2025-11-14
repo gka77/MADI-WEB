@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Detail</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Load project data -->
+    <script src="project.js" defer></script>
+
+    <!-- Page Logic -->
+    <script defer>
+        document.addEventListener("DOMContentLoaded", () => {
+            const params = new URLSearchParams(window.location.search);
+            const id = params.get("id");
+            const cat = params.get("cat"); // category parameter
+
+            const project = projects[id];
+
+            // Fallback if ID is invalid
+            if (!project) {
+                document.querySelector(".title").innerText = "Project Not Found";
+                return;
+            }
+
+            // Set title + description
+            document.querySelector(".title").innerText = project.title;
+            document.querySelector(".desc").innerText = project.desc;
+
+            // Display images
+            const gallery = document.querySelector(".gallery");
+            project.images.forEach(src => {
+                const img = document.createElement("img");
+                img.src = src;
+                img.classList.add("detail-img");
+                gallery.appendChild(img);
+            });
+
+            // Category label mapping
+            const catNames = {
+                plant: "Plant",
+                residential: "Residential",
+                commercial: "Commercial",
+                cultural: "Cultural",
+                oversea: "Oversea",
+                prize: "Prize-winning",
+                solar: "Solar"
+            };
+
+
+            // Back button setup
+            const backBtn = document.querySelector("#back-category");
+
+            if (cat && catNames[cat]) {
+                backBtn.innerText = `← Back to more ${catNames[cat]} projects`;
+                backBtn.href = `projects/${cat}.html`;
+            } else {
+                backBtn.innerText = "← Back to Projects";
+                backBtn.href = "project.html";
+            }
+        });
+    </script>
+
+    <style>
+        /* Simple layout styling for the detail page */
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .detail-img {
+            width: 100%;
+            max-width: 1000px;
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .button-row {
+            margin-top: 40px;
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img src="images/MadiLogo.png" class="logo">
+    </header>
+
+    <hr class="rule">
+
+    <h2 class="title"></h2>
+    <p class="desc"></p>
+
+    <div class="gallery"></div>
+
+    <hr class="rule">
+
+    <div class="button-row">
+        <a id="back-category" class="button button--project"></a>
+        <a href="index.html" class="button button--project">Home</a>
+    </div>
+
+</body>
+</html>
