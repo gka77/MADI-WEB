@@ -56,5 +56,32 @@ const projects = {
         images: [
             "projects/projectimages/줄기세포·재생센터1.png"
         ]
+    },
+
+    "solar-nabi": {
+        title: "함평 나비 축제 주차장 태양광 발전 사업 2009",
+        desc: "위치: 함평 나비축제장, 규모: 지상 주차장 상부 태양광 설치 (2MW)",
+        images: [
+            "projects/projectimages/나비1.png",
+            "projects/projectimages/나비2.png",
+            "projects/projectimages/나비3.png"
+        ]
+    },
+
+    "solar-officetel": {
+        title: "역삼동 오피스텔 태양광 발전사업 2021",
+        desc: "위치: 서울특별시 강남구 역삼동, 규모: 오피스텔 BIPV (건물일체형태양광발전시스템)",
+        images: [
+            "projects/projectimages/오피스텔1.png"
+        ]
+    },
+
+    "solar-oseongsan": {
+        title: "오성산 관광 자원화 컨셉 공모 (태양광발전 및 BIPV 제안) 2022",
+        desc: "위치: 오성산 공원, 규모: 주차장 상부 및 BIPV (0.5 MW)",
+        images: [
+            "projects/projectimages/오성산1.png"
+        ]
     }
+
 };
