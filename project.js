@@ -80,7 +80,13 @@ const projects = {
         title: "오성산 관광 자원화 컨셉 공모 (태양광발전 및 BIPV 제안) 2022",
         desc: "위치: 오성산 공원, 규모: 주차장 상부 및 BIPV (0.5 MW)",
         images: [
-            "projects/projectimages/오성산1.png"
+            "projects/projectimages/오성산1.jpg",
+            "projects/projectimages/오성산2.jpg",
+            "projects/projectimages/오성산3.png",
+            "projects/projectimages/오성산4.png",
+            "projects/projectimages/오성산5.png",
+            "projects/projectimages/오성산6.jpg",
+            "projects/projectimages/오성산7.jpg"
         ]
     },
 
@@ -650,7 +656,12 @@ const projects = {
         desc: "국제현상설계공모 2024, with Arch Mist, 서울특별시 잠수교",
         images: [
             "projects/projectimages/잠수교1.png",
-            "projects/projectimages/잠수교2.png"
+            "projects/projectimages/잠수교2.png",
+            "projects/projectimages/잠수교3.jpg",
+            "projects/projectimages/잠수교5.jpg",
+            "projects/projectimages/잠수교6.jpg",
+            "projects/projectimages/잠수교8.jpg",
+            "projects/projectimages/잠수교9.jpg"
         ]
     }
 
