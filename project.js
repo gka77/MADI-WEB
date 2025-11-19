@@ -663,6 +663,32 @@ const projects = {
             "projects/projectimages/잠수교8.jpg",
             "projects/projectimages/잠수교9.jpg"
         ]
+    },
+
+    "hospital-CatholicGMP": {
+        title: "가톨릭 중앙의료원 세포실험실 GMP",
+        desc: "위치: 서울특별시 서초구 반포대로 222(반포동)",
+        images: [
+            "projects/projectimages/GMP1.png",
+            "projects/projectimages/GMP2.png",
+            "projects/projectimages/GMP3.png",
+            "projects/projectimages/GMP4.png",
+            "projects/projectimages/GMP5.png"
+        ]
+    },
+
+    "hospital-BSL3": {
+        title: "연세대학교 의료원 동물실험실 BSL3(크린룸)",
+        desc: "위치: 서울특별시 서대문구 연세로 50, 용도: 교육시설",
+        images: [
+            "projects/projectimages/BSL3_1.png",
+            "projects/projectimages/BSL3_2.png",
+            "projects/projectimages/BSL3_3.png",
+            "projects/projectimages/BSL3_4.png",
+            "projects/projectimages/BSL3_5.png",
+            "projects/projectimages/BSL3_6.png",
+
+        ]
     }
 
 };
