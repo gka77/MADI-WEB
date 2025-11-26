@@ -295,6 +295,8 @@ const projects = {
         title: "쌍령근린공원 민간공원조성 특례사업",
         desc: "공원 내 건축물 4개동 with Meier Partners, 경기도 광주시",
         images: [
+            "projects/projectimages/쌍령a.png",
+            "projects/projectimages/쌍령b.png",
             "projects/projectimages/쌍령근린공원1.png",
             "projects/projectimages/쌍령근린공원2.png",
             "projects/projectimages/쌍령근린공원3.png"
@@ -655,6 +657,10 @@ const projects = {
         title: "잠수교, 문화의 다리 (2024)",
         desc: "국제현상설계공모 2024, with Arch Mist, 서울특별시 잠수교",
         images: [
+            "projects/projectimages/잠수교a.png",
+            "projects/projectimages/잠수교b.png",
+            "projects/projectimages/잠수교c.png",
+            "projects/projectimages/잠수교d.png",
             "projects/projectimages/잠수교1.png",
             "projects/projectimages/잠수교2.png",
             "projects/projectimages/잠수교3.jpg",
