@@ -692,7 +692,21 @@ const projects = {
             "projects/projectimages/BSL3_3.png",
             "projects/projectimages/BSL3_4.png",
             "projects/projectimages/BSL3_5.png",
-            "projects/projectimages/BSL3_6.png",
+            "projects/projectimages/BSL3_6.png"
+
+        ]
+    },
+
+    "hospital-Bestian": {
+        title: "베스티안병원 가평연수원 신축공사 2008",
+        desc: "위치: 경기도",
+        images: [
+            "projects/projectimages/Bestian1.jpg",
+            "projects/projectimages/Bestian2.jpg",
+            "projects/projectimages/Bestian3.jpg",
+            "projects/projectimages/Bestian4.jpg",
+            "projects/projectimages/Bestian5.jpg",
+            "projects/projectimages/Bestian6.jpg.png"
 
         ]
     }
