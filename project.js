@@ -709,6 +709,17 @@ const projects = {
             "projects/projectimages/Bestian6.jpg.png"
 
         ]
+    },
+
+    "prize-poongseok": {
+        title: "대모산 풍석 미디어 테마 체험 공원",
+        desc: "서울특별시 강남구, 제이아이즈, 조규민 기획",
+        images: [
+            "projects/projectimages/poongseok1.jpg",
+            "projects/projectimages/poongseok2.png",
+            "projects/projectimages/poongseok3.png",
+            "projects/projectimages/poongseok4.png"
+        ]
     }
 
 };
