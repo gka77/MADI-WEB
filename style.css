@@ -404,3 +404,11 @@ body {
 @media (max-width: 640px) {
   /* gallery remains flex — no grid required */
 }
+
+.pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
