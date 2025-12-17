@@ -21,6 +21,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
@@ -58,12 +59,15 @@ body {
   backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(0,0,0,0.08);
   box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+  min-width: 0;          /* add this */
+
 }
 
 .logo {
   width: 120px;
   display: block;
   filter: drop-shadow(0 3px 8px rgba(15,23,42,0.22));
+  min-width: 0;          /* add this */
 }
 
 /* ==========================================================================
@@ -409,6 +413,8 @@ body {
   white-space: pre-wrap;
   word-break: break-word;
   max-width: 100%;
+  width: 100%;
+  min-width: 0;
   overflow-x: auto;
   box-sizing: border-box;
 }
