@@ -292,14 +292,26 @@ const projects = {
     },
 
     "oversea-ssangryeong": {
-        title: "쌍령근린공원 민간공원조성 특례사업",
+        title: "쌍령근린공원 민간공원조성 특례사업 / Children's Dream Center & Eco Museum",
         desc: "공원 내 건축물 4개동 with Meier Partners, 경기도 광주시",
         images: [
-            "projects/projectimages/쌍령a.png",
-            "projects/projectimages/쌍령b.png",
             "projects/projectimages/쌍령근린공원1.png",
-            "projects/projectimages/쌍령근린공원2.png",
-            "projects/projectimages/쌍령근린공원3.png"
+            "projects/projectimages/쌍령근린공원3.png",
+            "projects/projectimages/쌍령근린공원4.png",
+            "projects/projectimages/쌍령근린공원5.png",
+            "projects/projectimages/쌍령근린공원6.png",
+            "projects/projectimages/쌍령근린공원7.png",
+            "projects/projectimages/쌍령근린공원8.png",
+            "projects/projectimages/쌍령근린공원9.png"
+        ]
+    },
+
+    "KIM-ssangryeong": {
+        title: "쌍령근린공원 민간공원조성 특례사업",
+        desc: "공원 내 건축물, 단독 설계, 경기도 광주시",
+        images: [
+            "projects/projectimages/쌍령a.png",
+            "projects/projectimages/쌍령b.png"
         ]
     },
 
